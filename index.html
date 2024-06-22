@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" text="text/css" href="styles.css">
+  <title>Contact form</title>
+</head>
+<body class="first-button">
+  <div class="form-container">
+<form action="" id="contactForm">
+  <h1>Contact Us</h1>
+
+  <div class="name-button">
+  <label for="firstname">First Name
+    <br><br>
+    <input type="text" id="firstname" class="f-button" required>
+  </label>
+  &nbsp;&nbsp;
+
+  <label for="lastname" >Last Name
+    <br><br>
+    <input type="text" id="lastname" class="l-button" required>
+  </label>
+  </div>
+  <br><br>
+
+  <label for="email">Email Address</label><br><br>
+  <input type="email" id="emailaddress"  class="email-button" required>
+  <br><br>
+
+  
+  <div>
+  <label for="querytype">Query Type</label><br><br>
+  <button class="query-button" >
+    <input type="radio" id="querytype"  class="radio-button" required>
+    General Enquiry
+  </button>
+  &nbsp;
+  <button class="query-button">
+    <input type="radio" id="querytype"  class="radio2-button" required>
+    Support Request
+  </button>
+  </div> <br><br>
+  
+  <label for="message">Message</label>
+  <br><br>
+  <input type="message-box" id="message" class="message-button" required>
+  
+    <br><br>
+    <label for="consent">
+      <input type="checkbox" required> I hereby consent to being contacted by the team
+    </label>
+    <br><br>
+
+    <button class="submit-button">Submit</button>
+</form>
+
+</div>
+
+<script src="script.js">
+
+</script>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">fhctech</a>.
+  </div>
+</body>
+</html>

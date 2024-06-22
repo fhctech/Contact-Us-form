@@ -1,0 +1,46 @@
+
+.first-button{
+ background-color: rgba(0, 255, 149, 0.13);
+ font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.form-container{
+background-color: white;
+margin-top: 50px;
+padding: 20px;
+border-radius: 20px;
+}
+
+.name-button{
+ display: flex;
+}
+
+.f-button, .l-button{
+  padding: 10px 50px;
+  border-radius: 5px;
+ }
+
+ .email-button{
+  padding: 10px 187px;
+  border-radius: 5px;
+ }
+
+.query-button{
+  background-color: white;
+ padding: 10px 68px;
+ border-radius: 5px;
+}
+
+.message-button{
+ padding: 50px 187px;
+  border-radius: 5px;
+}
+.submit-button{
+ padding: 10px 247px;
+  border-radius: 5px;
+  background-color:rgba(0, 128, 0, 0.63);
+}
